@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>About Us</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome (optional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Optional custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        :root { --green: #2f8a44; }
+        .hero {
+            background: url('images/about img.jpg') center/cover no-repeat;
+            min-height: 40vh;
+            display:flex;
+            align-items:center;
+            color:#fff;
+        }
+        .hero .overlay {
+            background: rgba(0,0,0,0.35);
+            width:100%;
+            padding:40px 0;
+            text-align:center;
+        }
+        .section-heading {
+            display:flex;
+            align-items:center;
+            gap:12px;
+            justify-content:center;
+            margin-bottom:16px;
+        }
+        .section-heading span { flex:1; height:1px; background:#e6e6e6; }
+        .team-member img { object-fit:cover; height:220px; width:100%; }
+        footer { background:#f8f9fa; padding:20px 0; text-align:center; margin-top:32px; }
+    </style>
+</head>
+<body>
+  <header class="bg-white shadow-sm">
+    <nav class="container navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="images/logo.jpg" alt="A.G. Moosa & Co Logo" style="height:56px; width: auto;">
+        <strong class="text-success">A.G.Moosa </strong>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto me-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about html.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="business patner html.html">Business Partners</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact html.html">Contact</a></li>
+        </ul>
+
+        <div class="d-flex align-items-center">
+          <div class="social-icons d-none d-md-flex me-3">
+            <a href="#" class="text-decoration-none mx-1 text-body"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="text-decoration-none mx-1 text-body"><i class="fa-brands fa-chrome"></i></a>
+            <a href="#" class="text-decoration-none mx-1 text-body"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="text-decoration-none mx-1 text-body"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <a href="tel:+000000000" class="btn btn-outline-success">Call Now</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="overlay container">
+        <h1 class="display-5 fw-bold">About Us</h1>
+        <p class="lead">Delivering trusted medicines since 1964</p>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="section-heading">
+              <span></span><h2 class="h4">Our Story</h2><span></span>
+            </div>
+            <p>
+              A.G. Moosa &amp; Co. was established in 1964 by the visionary Mr. Haji Muhammad Ilyas (Late),
+              who had a clear mission: to deliver life-saving medicines with trust and efficiency.
+              What began as a small wholesale operation serving a limited circle of residents in Karachi has now
+              transformed into a dynamic and robust pharmaceutical distribution company.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="section-heading">
+              <span></span><h2 class="h4">Our Legacy</h2><span></span>
+            </div>
+            <p>
+              For over five decades, A.G. Moosa & Co. has built a legacy rooted in dedication, ethical practices,
+              and a customer-first approach. The founders' family continues the mission with integrity and excellence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4 bg-light">
+      <div class="container">
+        <h2 class="text-center" style="color:var(--green); margin-bottom:12px;">Mission, Vision &amp; Values</h2>
+        <div class="row gy-3">
+          <div class="col-md-4">
+            <div class="card h-100 border-0">
+              <div class="card-body">
+                <h5 class="card-title text-success">Mission</h5>
+                <p class="card-text">To ensure the reliable delivery of pharmaceutical products across Pakistan by maintaining high standards of service, ethics, and professionalism.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0">
+              <div class="card-body">
+                <h5 class="card-title text-success">Vision</h5>
+                <p class="card-text">To become the most trusted and innovative pharmaceutical distribution company in the country.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0">
+              <div class="card-body">
+                <h5 class="card-title text-success">Values</h5>
+                <p class="card-text">Integrity, Reliability, Innovation, Commitment, Collaboration.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center" style="color:var(--green); margin-bottom:12px;">Our Team</h2>
+        <div class="row g-4">
+          <div class="col-sm-6 col-md-4">
+            <div class="card team-member h-100 shadow-sm">
+              <img src="images/1images.jpg" class="card-img-top img-fluid" alt="Mr. Anwer Moosa">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-1">Mr. Anwer Moosa</h5>
+                <p class="text-muted mb-0">Managing Director</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card team-member h-100 shadow-sm">
+              <img src="images/2images.jpg" class="card-img-top img-fluid" alt="Mr. Muhammad Haroon">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-1">Mr. Muhammad Haroon</h5>
+                <p class="text-muted mb-0">Operations Head</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card team-member h-100 shadow-sm">
+              <img src="images/3image.jpg" class="card-img-top img-fluid" alt="Mr. Mohammad Ali">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-1">Mr. Mohammad Ali</h5>
+                <p class="text-muted mb-0">Logistics & Supply</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-white">
+      <div class="container">
+        <h2 class="text-center" style="color:var(--green); margin-bottom:12px;">Our Partners</h2>
+        <p class="text-start">We are proud to be distribution partners with leading pharmaceutical and FMCG companies.</p>
+        <div class="row g-3 align-items-center">
+          <div class="col-6 col-md-3 text-center">
+            <a href="#" class="d-block partner text-decoration-none">
+              <img src="business patner image/atco logo.jpg" alt="ATCO logo" class="img-fluid mb-2" style="max-height:70px;">
+              <div class="fw-bold text-success">ATCO Group</div>
+            </a>
+          </div>
+          <div class="col-6 col-md-3 text-center">
+            <a href="#" class="d-block partner text-decoration-none">
+              <img src="business patner image/woodward logo.jpg" alt="Woodwards logo" class="img-fluid mb-2" style="max-height:70px;">
+              <div class="fw-bold text-success">WOODWARDS Group</div>
+            </a>
+          </div>
+          <div class="col-6 col-md-3 text-center">
+            <a href="#" class="d-block partner text-decoration-none">
+              <img src="business patner image/jinnah logo.png" alt="Jinnah logo" class="img-fluid mb-2" style="max-height:70px;">
+              <div class="fw-bold text-success">JINNAH Group</div>
+            </a>
+          </div>
+          <div class="col-6 col-md-3 text-center">
+            <a href="#" class="d-block partner text-decoration-none">
+              <img src="business patner image/trifa logo.png" alt="Trifa logo" class="img-fluid mb-2" style="max-height:70px;">
+              <div class="fw-bold text-success">TRIFA PHARMACEUTICAL</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light">
+      <div class="container text-center">
+        <h3 class="fw-bold" style="color:var(--green);">In Loving Memory</h3>
+        <p class="mb-1">“In loving memory of our founder, Mr. Haji Muhammad Ilyas — whose vision and values continue to guide us.”</p>
+        <p class="fw-semibold">At A.G. Moosa &amp; Co., we believe that our commitment to quality and service is a legacy of care and trust.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> A.G. Moosa &amp; Co. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap JS bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
